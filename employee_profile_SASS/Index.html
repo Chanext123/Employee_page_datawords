@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chan</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="chan.css">
+    <link rel="stylesheet" href="tian.css"> -->
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar__left">
+            <a href=""><img src="image/logo-final.png" alt=""></a>
+
+            <div class="searchbox">
+                <img src="./image/search.png" alt="">
+                <input type="text" placeholder="search">
+            </div>
+        </div>
+
+        <div class="navbar__center">
+            <ul>
+                <li>
+                    <a href="">Home</a>
+                </li>
+                <li>
+                    <a href="">Employee</a>
+                </li>
+                <li>
+                    <a href="">Login</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ===== navbar close ===== -->
+
+
+
+
+    <div class="container">
+        <div class="toggle">
+            <img src="image/display.png" alt="night-mode" id="dark" />
+            <img src="image/help.png" alt="light-mode" id="light" />
+        </div>
+
+
+        <!-- ------- profile page ------- -->
+        <div class="container__main">
+            <div class="container__profile">
+                <img src="image/coverpic.png" alt="" width="100%">
+                <div class="container__profile container__profile--inner">
+                    <!-- <img src="image/edit-details.png" alt="" class="edit-details"> -->
+                    <img src="image/user1.png" alt="" class="profile-pic">
+                    <!-- <img src="image/edit-pp.png" alt="" class="edit-pp"> -->
+                    <h1>Christin Misa</h1>
+                    <b>Lorem ipsum, dolor sit amet | consectetur adipisicing elit. Accusamus, quas!</b>
+                    <p>Cebu City, FLB Building &middot; <a href="">Contact Info</a> </p>
+
+
+                    <div class="profile-btn">
+                        <a onclick="toggleDescription()" class="primary-btn">About</a>
+                        <a onclick="toggleDescription()" class="KPI">Key Performance Indicator (KPI)</a>
+                        <a onclick="toggleDescription()" class="more">More</a>
+                    </div>
+
+
+                    <div class="matual-connection" id="matual-connection">
+                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium sequi
+                            accusantium beatae enim voluptas consequuntur. Numquam veniam laudantium iure,
+                            natus quo hic libero distinctio ut voluptate, blanditiis, excepturi nisi suscipit
+                            vero ipsum saepe quod porro voluptatibus.
+                            Tempore blanditiis maiores sed!
+                        </span>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="container__description">
+                <div class="container__description--certificate">
+                    <img src="image/exper.png" alt="">
+                    <h2>TRAININGS AND CERTIFICATIONS</h2>
+                </div>
+
+                <div class="profile-desc-row">
+                    <img src="image/certificate.png" alt="">
+                    <div>
+                        <h3>Sample Traning: Catalog</h3>
+                        <b>Feb 2023 - Present &middot; 1.5 years</b>
+                        <b><a href="" class="Download">Download</a>&middot; <a href="" class="View">View</a></b>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Laboriosam reprehenderit, facilis?</p><br>
+
+                    </div>
+                </div>
+
+                <div class="profile-desc-row">
+                    <img src="image/certificate.png" alt="">
+                    <div>
+                        <h3>Sample Traning: Catalog</h3>
+                        <b>Feb 2023 - Present &middot; 1.5 years</b>
+                        <b><a href="" class="Download">Download</a>&middot; <a href="" class="View">View</a></b>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Laboriosam reprehenderit,?</p><br>
+
+                    </div>
+                </div>
+
+                <div class="profile-desc-row">
+                    <img src="image/certificate.png" alt="">
+                    <div>
+                        <h3>Sample Traning: Catalog</h3>
+                        <b>Feb 2023 - Present &middot; 1.5 years</b>
+                        <b><a href="" class="Download">Download</a>&middot; <a href="" class="View">View</a></b>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Laboriosam reprehenderit, facilis?</p><br>
+
+                    </div>
+                </div>
+
+                <hr>
+                <a href="" class="show-link">SEE MORE <img src="image/right-arrow.png" alt=""></a>
+
+            </div>
+
+
+
+            <div class="container__description">
+                <div class="container__supervisor">
+                    <div>
+                        <img src="image/supervisor.png">
+                    </div>
+                    <b>SUPERVISOR</b>
+                </div>
+
+                <div class="container__description--supervisor">
+                    <a href=""><img src="image/user1.png" alt="">My items</a>
+                    <a href=""><img src="image/user1.png" alt="">Try premium</a>
+
+                </div>
+
+                <div class="show-all-members">
+                    <a href="">SHOW ALL MEMBERS </a>
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+    <script src="js.js"></script>
+</body>
+
+</html>

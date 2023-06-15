@@ -1,0 +1,97 @@
+body.dark-theme {
+    $bgd:#18191a;
+    $whited: #242526;
+    $h1d: #fff;
+    $box-shadow:0 5px 10px rgba(0, 0, 0, 0.1);
+    $a:#5f5f5f;
+    $link_a:#045be6;
+    $span_shadow: 0.1px 0.1px 10px #b0b3b8;
+    $btn_bg_br:#7d00d3;
+    $btn_more:#777;
+    $h3:#222;
+    $hrd:#999797;
+  
+
+    .container,
+    .navbar,
+    .navbar__center,
+    .navbar__left,
+    .container__profile,
+    .matual-connection,
+    .container__profile--inner,
+    .container__description,
+
+
+    
+  
+    .navbar{
+      background-color: $whited;
+    }
+    .container{
+        background-color: $bgd;
+    }
+
+    .navbar__center ul li a{
+        color: $white;
+    }
+    .navbar__left .searchbox{
+        background: #383737;
+
+    }
+    .container__profile{
+        box-shadow: $box-shadow;
+
+        h1{
+            color: $h1d;
+
+        }
+        b, p{
+            color: $hr;
+        }
+    }
+    .matual-connection{
+        border-radius: 10px;
+        box-shadow: $box-shadow;
+
+    }
+   .matual-connection span{
+        box-shadow: $box-shadow;
+        color: $white;
+    }
+
+    .container__description .profile-desc-row h3, h2,p {
+        color: $white;
+    }
+
+    .container__description .show-link {
+        color: $white;
+    }
+
+    .container__description .show-all-members{
+        border-top: 1px solid $hrd;
+
+    }
+    
+    .container__description  .container__supervisor  {
+        border-bottom: 1px solid $hrd;
+
+    }
+    .container__description b {
+        color: $white;
+    }
+
+    .container__description hr {
+        border-bottom: 1px solid $hrd;
+
+    }
+
+    .container__main  .container__profile  .container__profile--inner .profile-pic {
+        background: $whited;
+    }
+
+    .container__profile .container__profile--inner .profile-btn {
+        cursor: pointer;
+    }
+
+  }
+  
